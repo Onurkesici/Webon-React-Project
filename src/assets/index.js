@@ -1,9 +1,10 @@
-import logo from "./logo.svg";
+import logo from "../../public/logo.jpg"
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import insta from "./instagram.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -21,11 +22,18 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import gizlibhce from "./company/gizlibahce.png";
+import kesici from "./company/kesici.png";
+import kombi from "./company/kombi.png";
+import busu from "./company/busu.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import gizli from "./gizlibahce.png";
+import kes from "./kesici.png";
+import komb from "./kombi.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -37,6 +45,7 @@ export {
   mobile,
   web,
   github,
+  insta,
   menu,
   close,
   css,
@@ -52,6 +61,10 @@ export {
   tailwind,
   typescript,
   threejs,
+  gizlibhce,
+  kesici,
+  kombi,
+  busu,
   meta,
   shopify,
   starbucks,
@@ -59,4 +72,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  gizli,
+  kes,
+  komb,
 };

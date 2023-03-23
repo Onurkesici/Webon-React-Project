@@ -15,6 +15,10 @@ import {
   git,
   figma,
   docker,
+  gizlibhce,
+  kesici,
+  kombi,
+  busu,
   meta,
   starbucks,
   tesla,
@@ -23,38 +27,41 @@ import {
   jobit,
   tripguide,
   threejs,
+  gizli,
+  kes,
+  komb,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "hakkında",
   },
   {
     id: "work",
-    title: "Work",
+    title: "İşler",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "İletişim",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Geliştiricisi",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Yerel Geliştirici",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Arka Uç Geliştirici",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "İçerik yaratıcı",
     icon: creator,
   },
 ];
@@ -116,11 +123,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Tam donanımlı web geliştiricisi",
+    company_name: "Gizli Bahce Camping",
+    icon: gizlibhce,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Haziran 2022 - 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +136,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Tam yığın Geliştirici",
+    company_name: "Kesici Makina",
+    icon: kesici,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Ağustos 2022 - 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,11 +149,11 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Tam donanımlı web geliştiricisi",
+    company_name: "Bostancı Kombi Servisi",
+    icon: kombi,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Mart 2023 - 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,11 +162,11 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Tam yığın Geliştirici",
+    company_name: "Busu Design",
+    icon: busu,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Nisan 2023 - 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -174,40 +181,40 @@ const testimonials = [
     testimonial:
       "Ürünümüz kadar güzel bir web sitesi yapmanın imkansız olduğunu düşündüm ama Webon yanıldığımı kanıtladı.",
     name: "S*** L***",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    designation: "Kurucu",
+    company: "Gizli Bahce Camping",
+    image: "https://imgs.search.brave.com/Zfu3x8cyvW7o4jHb-ndGsC-JuoBSXUY9rYclxJKnE4w/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5r/cnNRd3JpU2ptaFhf/dWFMQUhzQVZnSGFI/YSZwaWQ9QXBp",
   },
   {
     testimonial:
       "Webon'un yaptığı gibi müşterilerinin başarısını gerçekten önemseyen bir web geliştiricisiyle hiç tanışmadım.",
     name: "C*** B***",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    designation: "Kurucu",
+    company: "Busu Design",
+    image: "https://imgs.search.brave.com/Zfu3x8cyvW7o4jHb-ndGsC-JuoBSXUY9rYclxJKnE4w/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5r/cnNRd3JpU2ptaFhf/dWFMQUhzQVZnSGFI/YSZwaWQ9QXBp",
   },
   {
     testimonial:
       "Webon web sitemizi optimize ettikten sonra trafiğimiz %50 arttı. Onlara yeterince teşekkür edemeyiz!",
-    name: "K*** H**",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "H*** K**",
+    designation: "Kurucu",
+    company: "Kesici Makina",
+    image: "https://imgs.search.brave.com/Zfu3x8cyvW7o4jHb-ndGsC-JuoBSXUY9rYclxJKnE4w/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5r/cnNRd3JpU2ptaFhf/dWFMQUhzQVZnSGFI/YSZwaWQ9QXBp",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Gizli Bahce Camping",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Kullanıcıların çeşitli sağlayıcılardan çadır kiralama, rezervasyon yapmasına ve yönetmesine olanak tanıyan, camp alanı ihtiyaçları için uygun ve verimli bir çözüm sağlayan web tabanlı platform.",
     tags: [
       {
-        name: "react",
+        name: "php",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
@@ -215,20 +222,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gizli,
+    source_code_link: "https://www.instagram.com/webon.dev/",
   },
   {
-    name: "Job IT",
+    name: "Kesici Makina",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Kullanıcıların iş makinaları aramasına, inşaat pozisyonlar için en kullanılı makinaları kullanmasına olanak tanıyan web uygulaması.",
     tags: [
       {
-        name: "react",
+        name: "php",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
@@ -236,20 +243,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: kes,
+    source_code_link: "https://www.instagram.com/webon.dev/",
   },
   {
-    name: "Trip Guide",
+    name: "Bostancı Kombi Servisi",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Kullanıcıların kombi bakımı ve genel onarı rezervasyonu yapmasına olanak tanıyan ve popüler destinasyonlar için özenle seçilmiş öneriler sunan kapsamlı servis rezervasyon platformu.",
     tags: [
       {
-        name: "nextjs",
+        name: "php",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +264,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: komb,
+    source_code_link: "https://www.instagram.com/webon.dev/",
   },
 ];
 

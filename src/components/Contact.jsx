@@ -73,7 +73,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Temasa Geç.</p>
-        <h3 className={styles.sectionHeadText}>Bize Mesaj Gönder.</h3>
+        <h3 className={styles.sectionHeadText}>Mesaj Gönder.</h3>
 
         <form
           ref={formRef}
@@ -118,7 +118,7 @@ const Contact = () => {
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            {loading ? "Sending..." : "Gönder"}
+            {loading ? "Gönderiliyor..." : "Gönder"}
           </button>
         </form>
       </motion.div>
